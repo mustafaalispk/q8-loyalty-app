@@ -1,0 +1,91 @@
+.page-booking__wrapper {
+  max-width: 375px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.page-booking__icon {
+  color: blue;
+  border: none;
+  cursor: pointer;
+  padding-top: 8px;
+}
+.page-booking__text {
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #20419a;
+}
+.page-booking__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-booking__underline {
+  border-bottom: 2px solid blue;
+  padding-top: 1rem;
+}
+.page-booking__wrapper select {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #20419a;
+  border-radius: 4px;
+}
+.page-booking__heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+.page-booking__heading h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #20419a;
+}
+.page-booking__wrapper li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+.page-booking__selectedstops {
+  background-color: white;
+}
+.page-booking__sations {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.page-booking__delete {
+  display: flex;
+  border: none;
+  justify-content: flex-end;
+  width: 100%;
+  cursor: pointer;
+  background-color: white;
+}
+.page-booking__flagship-name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #20419a;
+}
+.page-booking__flagship-text {
+  padding-bottom: 1rem;
+}
+.page-booking__next-button {
+  border-radius: 50px;
+  background-color: #20419a;
+  width: 100%;
+  height: 35px;
+  color: white;
+  border: none;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}

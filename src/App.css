@@ -1,16 +1,43 @@
 .App {
   text-align: center;
 }
+h2,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+button {
+  margin: 0;
+  padding: 0;
+}
+span {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+div {
+  margin: 0;
+  padding: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 .App-header {
